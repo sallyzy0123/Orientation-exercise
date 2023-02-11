@@ -1,0 +1,5 @@
+button {
+  font: bold 20px Helvetica, Verdana, sans-serif;
+  width: 10em;
+  cursor: pointer;
+}

@@ -1,0 +1,131 @@
+h1{
+    font-family:'Indie Flower',cursive;
+    font-size: 150px;
+    text-align:center;
+    color:indigo;
+}
+
+body{
+    background-image:url('IMG_7961.JPG');
+    width:100%;
+    height:100%;
+    position:static;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.topnav{
+    overflow:hidden;
+    background-color:black;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #3E56D6   ;
+    color: white;
+  }
+
+  .nth:nth-child(n){
+      color:rgb(17, 7, 167);
+  }
+
+  ul li:nth-child(2n+1) {  
+    color: rgb(99, 15, 235);
+  }
+
+  .CMB{
+      border-width: 20px;
+      border-style: dotted solid double dashed;
+      border-color:rgb(54, 49, 99);
+  }
+
+  .Shanghai:hover{
+      color:red;
+  }
+
+  .intro::first-letter{
+      color:rgb(99, 15, 235);
+      font-size:40px;
+  }
+  .flower{
+      padding:30px;
+      border: 1px solid #b10af3;
+  }
+ 
+  div.background {
+    
+    border: 2px solid black;
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+  img{
+      border-image:linear-gradient(rgb(25, 0, 255),rgb(98, 71, 148)) 10;
+  }
+  .mother{
+    border-radius: 40px;
+    border-width:20px;
+    width: 400px;
+    height: 300px; 
+  }
+
+  #hair{
+      padding-left: 40px;
+      padding-right:40px;
+      border:1px solid rgb(60, 25, 187);
+  }
+  #box {
+    width: 150px;
+  height: 150px;
+  border-radius:50%;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: width 2s;
+  }
+  @keyframes example {
+    0%   {background-image: url('../HTML&CSS/IMG_7772.JPG'); left:0px; top:0px;}
+  25%  {background-color:rgb(89, 13, 112); left: 1000px; top:0px;}
+  50%  {background-color:indigo; left:1000px; top:400px;}
+  75%  {background-image:url('./HTML&CSS/IMG_7772.JPG'); left:800px; top:500px;}
+  100% {background-color:rgb(97, 106, 148); left:0px; top:0px;}
+  }
+  #box:hover {
+    width: 300px;
+  }
+  footer{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size:40px;
+  }
+  #tip1{
+    color:orange;
+  }
+  #tip2{
+    color:orange;
+  }
